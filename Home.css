@@ -86,7 +86,7 @@ ul.subMenu li:hover a::before{
 
 ul.subMenu{
 	list-style: none;
-	width: 160px;
+	width: 140px;
 	position: absolute;
 	top: unset;
 	background: white;
