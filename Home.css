@@ -929,6 +929,7 @@ button#orderbtn:hover{
 	float: right;
 	background: #ddd;
 	margin-right: 5%;
+	height: auto;
 
 }
 .myInfo {
