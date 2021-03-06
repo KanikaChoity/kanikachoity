@@ -71,7 +71,7 @@ ul.main-menu li{
 	position: relative;
 }
 
-ul.main-menu li:hover ul.subMenu{
+.main-menu li:hover ul.subMenu{
 	visibility: visible;
 	transform: scaleY(1);
 	-webkit-transform: scaleY(1);
@@ -86,7 +86,7 @@ ul.subMenu li:hover a::before{
 
 ul.subMenu{
 	list-style: none;
-	width: 170px;
+	width: 176px;
 	position: absolute;
 	top: unset;
 	background: white;
@@ -149,11 +149,13 @@ ul.subMenu li a::before{
 	font-size: 18px;
 	line-height: 23px;
 	/* display: block; */
-	padding: 34px 25px;
+	/*padding: 34px 25px;*/
 	color: #312a2a;
 	font-weight: 500;
 	text-align: center;
 	letter-spacing: .04cm;
+	margin-right: 40px;
+	margin-left: 10px;
 }
 
 .main-menu li a:hover{
@@ -789,10 +791,11 @@ button#orderbtn:hover{
 .jogajog {
     position: absolute;
     bottom: 350px;
-	right: 400px;
+	/*right: 460px;*/
 	width: auto;
 	z-index: 1;
-	
+	float: left;
+	margin-left: 25px;
 }
 
 
@@ -927,13 +930,9 @@ button#orderbtn:hover{
 .selfRight {
 	width: 45%;
 	float: right;
-	over-flow: hidden;
 	background: #ddd;
 	margin-right: 5%;
-	display: flex;
-	justify-content: center;
-	position: relative;
-	height: auto;
+	height: 673px;
 
 }
 .myInfo {
@@ -1575,8 +1574,3 @@ a#learnmoreBtn i{
 	letter-spacing: 1.1;
 	font-weight: 400;
 }
-
-
-
-
-
