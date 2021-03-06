@@ -927,8 +927,12 @@ button#orderbtn:hover{
 .selfRight {
 	width: 45%;
 	float: right;
+	over-flow: hidden;
 	background: #ddd;
 	margin-right: 5%;
+	display: flex;
+	justify-content: center;
+	position: relative;
 	height: auto;
 
 }
