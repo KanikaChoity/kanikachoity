@@ -1266,6 +1266,7 @@ a#learnmoreBtn i{
 	border-top-left-radius: 50px;
 	font-family: Oswald;
 	letter-spacing: .7px;
+	outline: none;
 }
 
 .inputboxes #subssubmitBtn{
